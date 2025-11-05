@@ -1,0 +1,28 @@
+{
+    "name": "axios-follow",
+    "version": "1.0.0",
+    "description": "Axios wrapper with automatic redirect following and cookie management.",
+    "keywords": [
+        "axios",
+        "follow",
+        "redirect"
+    ],
+    "license": "ISC",
+    "author": "tish",
+    "type": "module",
+    "main": "dist/follow.js",
+    "types": "dist/follow.d.ts",
+    "scripts": {
+        "test": "npx tsc --build && node test/test.js"
+    },
+    "dependencies": {
+        "cookie-more": "^1.0.1"
+    },
+    "peerDependencies": {
+        "axios": "^1.0.0"
+    },
+    "devDependencies": {
+        "axios": "^1.13.2",
+        "typescript": "^5.8.2"
+    }
+}
