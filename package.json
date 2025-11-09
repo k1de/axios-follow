@@ -1,6 +1,6 @@
 {
     "name": "axios-follow",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Axios wrapper with automatic redirect following and cookie management.",
     "keywords": [
         "axios",
