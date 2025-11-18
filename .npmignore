@@ -1,5 +1,4 @@
-src/
-test/
-tsconfig.json
-tsconfig.tsbuildinfo
-.gitignore
+# Publish only dist
+# Note: package.json, README*, LICENSE*, CHANGELOG* are always included automatically
+*
+!dist/**
